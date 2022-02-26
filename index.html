@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Mulaa: The Currency Convertor</title>
+        <meta name="viewport", content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+    </head>
+    <body>
+        <div class="wrapper">
+            <header> MULAA </header>
+            <form action="#">
+                <div class="amount">
+                    <p>Enter Amount:</p>
+                    <input type="text" aria-label="Search" value="0"> 
+                </div>
+                <div class="list">
+                    <div class="from">
+                        <p>From</p>
+                        <div class="Selectbox">
+                            <img src="https://flagcdn.com/16x12/us.png" alt="flag">
+                             <select aria-label="State"> </select>
+                        </div>
+                    </div>
+                      <div class="icon">
+                         <i class="fas fa-exchange-alt"><img src="Assets\images\img_225047.png" alt="Convert"></i>
+                      </div>
+                    <div class="to">
+                        <p>To</p>
+                        <div class="Selectbox">
+                            <img src="https://flagcdn.com/16x12/in.png" alt="flag">
+                             <select aria-label="State"> </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="exchange-rate">
+                    Your exchange rate will appeare here...
+                </div>
+                <button type="button">Get Converted Value</button>
+
+            </form>
+        </div>
+        
+        <script src="JS\Country.js"></script>
+        <script src="JS\file.js"></script>
+    
+    </body>
+
+</html>
