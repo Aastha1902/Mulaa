@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap);
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: cursive;
+ }
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 10px;
+    background: #e67f2c;
+ }
+.wrapper{
+    background: #2cb6b6;
+    width: 370px;
+    padding: 30px;
+    border-radius: 7px;
+    box-shadow: 7px 7px 20px #0f4b8f;
+}    
+.wrapper form{
+    margin: 40px 0 20px 0;
+}
+.wrapper header{
+    font-size: 80px;
+    font-weight: 500;
+    text-align: center;
+    color: #ec5e0c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form :where(input,select,button){
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+form input{
+    height: 50px;
+    padding: 0 15px;
+    font-size: 30px;
+    border: 1px  solid #700267;
+}
+form input :focus{
+    padding: 0 14px;
+    border: 2px solid #740091;
+}
+form .list{
+    display: flex;
+    color: #643f08;
+    font-size: 30px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.list .selsctbox{
+    display: flex;
+    height: 35px;
+    width: 115px;
+    color: #f5bc52;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f5bc52;
+}
+.selectbox select{
+    width: auto;
+    font-size: 30px;
+    margin: 0 -5px 0 5px;
+}
+.selectbox select::-webkit-scrollbar{
+    width: 8px;
+}
+.selectbox select::-webkit-scrollbar-track{
+    background: #ebac5a;
+}
+.selectbox select::-webkit-scrollbar-thumb{
+    background: #e2a6d3;
+    border-radius: 8px;
+    border-right: 2px solid #740091;
+}
+.selectbox img{
+    max-width: 45px;
+    height: 12;
+    width: 14;
+}
+.list .icon{
+    cursor: pointer;
+    font-size: 10px;
+    margin-top: 30px;
+}
+form .exchange-rate{
+    font-size: 24px;
+    color: #642e0b;
+    margin: 20px 0 30px;
+}
+form button{
+    height: 52px;
+    color: #ec5e0c;
+    font-size: 24px;
+    cursor: pointer;
+    background: #77d9f7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
