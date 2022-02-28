@@ -18,3 +18,6 @@ The applications uses following techstack:
 It's Simple!!!
 </br> Just select the currency code from the dropdown menu and enter the amount you want to convert. Hit the 'Get Exchange Rate button' and you are all done.</br> 
 You can also click on the exchange button to reverse the currency code.
+
+# Link for the site
+ https://mulaa.hostman.site/
